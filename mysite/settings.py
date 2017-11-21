@@ -25,7 +25,7 @@ SECRET_KEY = '^2k0u%mzew3*f12byn3e4xd7uhoy+od-eijy)tda%n0w*hti(a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STARTIC_ROOT = os.path.join(BASE_DIR, 'startic')
+
